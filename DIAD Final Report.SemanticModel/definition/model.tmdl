@@ -16,9 +16,9 @@ queryGroup 'Transform File from International\Sample Query'
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.135.7627.0 (24.08)
-
 annotation PBI_QueryOrder = ["Sales","Product","Geography","Manufacturer","International","Sample File","Sample File Parameter1","Transform Sample File from International","Transform File from International"]
+
+annotation PBI_ProTooling = ["DevMode"]
 
 ref table Sales
 ref table DateTableTemplate_678fad20-b2da-4fd6-8a81-d3344e1b103b
